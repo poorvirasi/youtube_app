@@ -1,0 +1,7 @@
+{% extends "django_app/base.html" %}
+{% block content %}
+
+          <h2 class="account-heading">{{ user.username }}</h2>
+          <p class="text-secondary">{{ user.email }}</p>
+
+{% endblock content %}
